@@ -1,7 +1,10 @@
-# test coverage for  [tedious (v2.0.0)](https://github.com/tediousjs/tedious)  [![npm package](https://img.shields.io/npm/v/npmtest-tedious.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tedious) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tedious.svg)](https://travis-ci.org/npmtest/node-npmtest-tedious)
+# npmtest-tedious
+
+#### test coverage for  [tedious (v2.0.0)](https://github.com/tediousjs/tedious)  [![npm package](https://img.shields.io/npm/v/npmtest-tedious.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tedious) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tedious.svg)](https://travis-ci.org/npmtest/node-npmtest-tedious)
+
 #### A TDS driver, for connecting to MS SQLServer databases.
 
-[![NPM](https://nodei.co/npm/tedious.png?downloads=true)](https://www.npmjs.com/package/tedious)
+[![NPM](https://nodei.co/npm/tedious.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/tedious)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-tedious/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tedious/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tedious/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tedious/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tedious/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-tedious/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-tedious/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-tedious/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tedious/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-tedious/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-tedious%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-tedious/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-tedious/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-tedious/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-tedious/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-tedious%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tedious/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-tedious/build/test-report.html](https://npmtest.github.io/node-npmtest-tedious/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-tedious/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-tedious/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-tedious/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-tedious/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-tedious/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-tedious/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-tedious/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Mike D Pilsbury",
-        "email": "mike.pilsbury@gmail.com"
+        "name": "Mike D Pilsbury"
     },
     "babel": {
         "presets": [
@@ -57,32 +65,26 @@
         },
         {
             "name": "Bret Copeland",
-            "email": "bret@atlantisflight.org",
             "url": "https://github.com/bretcope"
         },
         {
             "name": "Bryan Ross",
-            "email": "bryan@rossipedia.com",
             "url": "https://github.com/rossipedia"
         },
         {
-            "name": "Ciaran Jessup",
-            "email": "ciaranj@gmail.com"
+            "name": "Ciaran Jessup"
         },
         {
-            "name": "Cort Fritz",
-            "email": "cfritz@caa.com"
+            "name": "Cort Fritz"
         },
         {
             "name": "lastonesky"
         },
         {
-            "name": "Patrik Simek",
-            "email": "patrik@patriksimek.cz"
+            "name": "Patrik Simek"
         },
         {
-            "name": "Phil Dodderidge",
-            "email": "pdodde@poyntz.com"
+            "name": "Phil Dodderidge"
         },
         {
             "name": "Zach Aller"
@@ -134,29 +136,23 @@
     "main": "./lib/tedious.js",
     "maintainers": [
         {
-            "name": "pekim",
-            "email": "mike.pilsbury@gmail.com"
+            "name": "pekim"
         },
         {
-            "name": "patriksimek",
-            "email": "patrik@patriksimek.cz"
+            "name": "patriksimek"
         },
         {
-            "name": "bretcope",
-            "email": "bret@atlantisflight.org"
+            "name": "bretcope"
         },
         {
-            "name": "rossipedia",
-            "email": "bryan@rossipedia.com"
+            "name": "rossipedia"
         },
         {
-            "name": "arthurschreiber",
-            "email": "schreiber.arthur@googlemail.com"
+            "name": "arthurschreiber"
         }
     ],
     "name": "tedious",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/tediousjs/tedious.git"
